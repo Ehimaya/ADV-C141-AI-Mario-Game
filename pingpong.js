@@ -3,11 +3,11 @@ rightWristY = "";
 scoreRightWrist = 0;
 
 function setup() {
-	canvas = createCanvas(800,400);
+	canvas = createCanvas(600,400);
 	canvas.parent('canvas');
 
 	video = createCapture(VIDEO);
-	video.size(800,400);
+	video.size(600,400);
     video.hide();
 
     poseNet = ml5.poseNet(video, modelLoaded);
